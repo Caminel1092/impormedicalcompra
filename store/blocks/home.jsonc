@@ -32,7 +32,10 @@
         "rich-text#title3",
         "shelf#demo3",
         "tab-layout#chat"
-      ]
+      ],
+      "parent": {
+        "challenge": "challenge.trade-policy-condition"
+        }
     },
     //Slider Principal
     "slider-layout#text-test": {
@@ -747,11 +750,6 @@
     ],
     "parent": {
       "challenge": "challenge.trade-policy-condition#home"
-    }
-  },
-  "challenge.trade-policy-condition#home": {
-    "props": {
-      "redirectPath": "/login"
     }
   },
 
