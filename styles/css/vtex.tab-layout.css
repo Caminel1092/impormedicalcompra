@@ -169,6 +169,9 @@
         padding: 12px;
         background-position: center;
     }
+    .container.container--productM{
+        display: none !important;
+    }
     /*
 .contentContainer{
     background: #e3e3e3;

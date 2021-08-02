@@ -348,7 +348,21 @@
 
 /*------------------------------------------------------------------------------------------MOBILE*/
 @media only screen and (max-width: 700px) {
-
+  .flexRowContent--FaqsColumnM .flexColChild::before {
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+    background-size: 100%;
+    font-size: 5px;
+    display: none !important;
+    width: 19px;
+    height: 23px;
+    margin-top: 0px;
+    top: 2px;
+    right: 0;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 10px;
+  }
   .flexColChild--InformacionDos {
     display: block;
     column-count: unset;

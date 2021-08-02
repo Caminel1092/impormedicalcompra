@@ -434,8 +434,39 @@
 
 /*--------------------------------------------------------------------------------------------------MOBILE!*/
 @media only screen and (max-width: 800px) {
+  .paragraph--productMOBILE1 {
+    font-size: 15px;
+    color: #0271e3;
+    text-transform: uppercase;
+    padding: 14px 0;
+    letter-spacing: 1px;
+}
+.container--productMOBILE1 {
+    width: 94%;
+    margin: 0 3%;
+    background: white;
+    padding: 0 3%;
+    font-weight: 700;
+}
   .container--titleFc {
     margin: 0 5%;
+}
+
+
+.container--TituloMobile {
+  width: 100%;
+}
+
+.wrapper--TituloMobile {
+  display: block;
+  width: 100%;
+}
+
+
+
+.container--TituloMobile {
+  display: block;
+  width: 100%;
 }
 .paragraph--titleFc {
   font-size: 14px !important;
@@ -529,7 +560,6 @@
   display: flex;
 }
 }
-
 .wrapper--botonprinci .link--textosPrinc {
   font-size: 14px;
   width: 100%;
