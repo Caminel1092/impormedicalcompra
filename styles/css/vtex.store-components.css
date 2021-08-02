@@ -1364,6 +1364,21 @@ height: 100%;
 
 /*-------------------------------------------------------------------------------------------------MOBILE---*/
 @media only screen and (max-width: 800px) {
+  .infoCardImageContainer--marcas-icon20::before {
+    content: "";
+    background: url(https://impormedical.vteximg.com.br/arquivos/4_iconsillaruedas.png);
+    position: absolute;
+    width: 56px !important;
+    background-size: 100%;
+    height: 60px;
+    z-index: 999;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0; opacity: 1;
+  }
   .sellingPrice{
     margin: 0 5% !important;
   }

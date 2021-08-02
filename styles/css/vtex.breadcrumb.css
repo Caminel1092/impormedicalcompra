@@ -97,7 +97,21 @@ span.vtex-breadcrumb-1-x-term.ph2.c-on-base::before {content: "/";display: flex;
     display: flex;   
 }
 /*------------------------------------------------------------------------------------------MOBILE*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    .arrow.arrow--1, .arrow.arrow--2, .arrow.arrow--3 {
+        display: flex;
+    }
+    
+    .link.homeLink {
+        height: 129%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .link.link--1 , .link.link--2 , .link.link--3 {
+        display: flex;
+        align-items: center;
+    }
     .container{
         margin: 10px 0 -40px 0;
         padding: 0;
@@ -131,6 +145,8 @@ span.vtex-breadcrumb-1-x-term.ph2.c-on-base::before {content: "/";display: flex;
         margin: 0 7px;
         color: black;
         font-weight: 100;
+        display: flex;
+        align-items: center;
     }
     /*
     .breadCrumbMobile{
