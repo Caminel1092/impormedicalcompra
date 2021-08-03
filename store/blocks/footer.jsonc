@@ -459,7 +459,7 @@
   "info-card#foo2":{
     "props":{
       "id":"texto",
-      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/logoepartner.png",
+      "imageUrl":"",
       "textPosition": "left",
       "textAlignment": "left",
       "blockClass":"textfool2"

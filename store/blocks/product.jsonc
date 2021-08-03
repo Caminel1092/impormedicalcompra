@@ -299,7 +299,7 @@
     "shelf.relatedProducts#2": {
       "props": {
           "recommendation": "accessories",
-          "blockClass": "bannerRecomendados",
+          "blockClass": "accesorios",
           "productList": {
               "titleText": "Nuestras Marcas",
               "itemsPerPage": 4,
